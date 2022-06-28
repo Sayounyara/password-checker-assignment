@@ -8,8 +8,6 @@ def main():
 
     input_file = open("password_log.txt", "a")
 
-    print("ITWorks password checker by Amos Chamberlain")
-
     password = input("Enter password: ")
 
     password_length = len(password)
